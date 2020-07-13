@@ -1,6 +1,7 @@
 # plugin-expedition
 
 show expedition info
+
 源码来自于马里酱，只是新增了数据
 
 # 舰种 ID
