@@ -1188,7 +1188,6 @@
         "big_success": "无战意高扬舰船亦可能大成功",
         "remark": null
     },
-    // 活动道中支援
     {
         "id": 165,
         "reward_fuel": 0,
@@ -1211,7 +1210,6 @@
         "big_success": null,
         "remark": null
     },
-    // 活动BOSS支援
     {
         "id": 166,
         "reward_fuel": 0,
@@ -1234,7 +1232,6 @@
         "big_success": null,
         "remark": null
     },
-    // A1
     {
         "id": 100,
         "reward_fuel": 45,
@@ -1266,7 +1263,6 @@
         "big_success": null,
         "remark": null
     },
-    // A2
     {
         "id": 101,
         "reward_fuel": 70,
@@ -1301,7 +1297,6 @@
         "big_success": null,
         "remark": null
     },
-    // A3
     {
         "id": 102,
         "reward_fuel": 120,
@@ -1340,7 +1335,6 @@
         "big_success": null,
         "remark": null
     },
-    // A4
     {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
       "id": 103,
         "reward_fuel": 80,
@@ -1376,7 +1370,6 @@
         "big_success": null,
         "remark": "旗舰也可使用CVE,旗舰为CVE时报错请无视"
     },
-    // A5
     {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
       "id": 104,
         "reward_fuel": 0,
@@ -1422,7 +1415,6 @@
         "big_success": null,
         "remark": null
     },
-    // A6
     {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
       "id": 105,
         "reward_fuel": 100,
@@ -1468,7 +1460,6 @@
         "big_success": null,
         "remark": "具体配置为1CVL+1CL+4DD，或1CVE+1CL+2DD+2任意，或1CL+3DD+2任意"
     },
-    // B1
     {
         "id": 110,
         "reward_fuel": 0,
@@ -1513,7 +1504,6 @@
         "big_success": null,
         "remark": null
     },
-    // B2
     {
         "id": 111,
         "reward_fuel": 300,
@@ -1558,7 +1548,6 @@
         "big_success": null,
         "remark": null
     },
-    // B3
     {
         "id": 112,
         "reward_fuel": 0,
@@ -1603,7 +1592,6 @@
         "big_success": null,
         "remark": null
     },
-    // B4
     {
         "id": 113,
         "reward_fuel": 0,
@@ -1651,7 +1639,6 @@
         "big_success": null,
         "remark": "CAV不可"
     },
-    // B5
     {
         "id": 114,
         "reward_fuel": 900,
@@ -1697,7 +1684,6 @@
         "big_success": null,
         "remark": null
     },
-    // D1
     {
         "id": 130,
         "reward_fuel": 0,
@@ -1734,7 +1720,6 @@
         "big_success": null,
         "remark": null
     },
-    // D2
     {
         "id": 131,
         "reward_fuel": 0,
@@ -1771,7 +1756,6 @@
         "big_success": null,
         "remark": null
     },
-    // E1
     {
         "id": 140,
         "reward_fuel": 0,
@@ -1813,7 +1797,6 @@
         "big_success": null,
         "remark": null
     },
-    // 41
     {
         "id": 41,
         "reward_fuel": 100,
@@ -1850,7 +1833,6 @@
         "big_success": null,
         "remark": null
     },
-    // 42
     {
         "id": 42,
         "reward_fuel": 800,
@@ -1890,7 +1872,6 @@
         "big_success": null,
         "remark": "最多4艘，CVL请用CVE代替"
     },
-    // 43
     {
         "id": 43,
         "reward_fuel": 2000,
@@ -1940,7 +1921,6 @@
         "big_success": null,
         "remark": "旗舰也可使用CVE，DD与DE不能混搭，具体配置为1CVE+2DD/DE+3任意，或1CVL+1CL+4DD"
     },
-    // 44
     {
         "id": 44,
         "reward_fuel": 0,
@@ -1988,7 +1968,6 @@
         "big_success": null,
         "remark": null
     },
-    // 44
     {
         "id": 45,
         "reward_fuel": 40,
