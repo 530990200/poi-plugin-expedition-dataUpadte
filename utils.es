@@ -6,7 +6,7 @@ export const SupportExpeditionData = {
   reward_items: [],
   flagship_lv: 0,
   fleet_lv: 0,
-  flagship_shiptype: 0,
+  flagship_shiptypes: [],
   ship_count: 2,
   drum_ship_count: 0,
   drum_count: 0,
@@ -50,8 +50,19 @@ export function expeditionErrors(fleetProperties, $expedition, expeditionData) {
       type: 'fleet_lv', detail: true, current: `${props.totalLv}`, requirement: `${expedition.fleet_lv}`,
     })
   }
-  if (expedition.flagship_shiptype !== 0 && props.flagshipType !== expedition.flagship_shiptype) {
-    errs.push({ type: 'flagship_shiptype' })
+  if (expedition.flagship_shiptypes.length !== 0) {
+    let valid = true, errLength = 0
+    expedition.flagship_shiptypes.map(item => {
+      if (props.flagshipType !== item) {
+        errLength++
+      }
+    })
+    if (errLength >= expedition.flagship_shiptypes.length) {
+      valid = false
+    }
+    if (valid === false) {
+      errs.push({ type: 'flagship_shiptypes' })
+    }
   }
   if (expedition.ship_count !== 0 && props.shipCount < expedition.ship_count) {
     errs.push({
