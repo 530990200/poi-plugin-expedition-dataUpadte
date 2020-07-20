@@ -263,7 +263,7 @@ export const SupportExpeditionData = {
   reward_items: [],
   flagship_lv: 0,
   fleet_lv: 0,
-  flagship_shiptype: 0,
+  flagship_shiptypes: [],
   ship_count: 2,
   drum_ship_count: 0,
   drum_count: 0,

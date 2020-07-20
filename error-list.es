@@ -9,7 +9,7 @@ const constraintErrorType = {
   resupply: 'Fleet not resupplied',
   flagship_lv: 'Flagship level too low',
   fleet_lv: 'Fleet total level too low',
-  flagship_shiptype: 'Incorrect flagship type',
+  flagship_shiptypes: 'Incorrect flagship type',
   ship_count: 'Not enough ships',
   drum_ship_count: 'Not enough drum carriers',
   drum_count: 'Not enough drums',
