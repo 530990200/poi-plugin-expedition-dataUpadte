@@ -53,7 +53,7 @@ export function expeditionErrors(fleetProperties, $expedition, expeditionData) {
   if (expedition.flagship_shiptypes.length !== 0) {
     let valid = true, errLength = 0
     expedition.flagship_shiptypes.map(item => {
-      if (props.flagshipType !== item) {
+      if (props.flagshipType !== item.shiptype) {
         errLength++
       }
     })
