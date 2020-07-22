@@ -229,7 +229,7 @@ const descriptionPanelRenderSelectorFactory = memoize(expeditionId =>
       if (expedition.flagship_shiptypes) {
         expedition.flagship_shiptypes.forEach((flagship_shiptypes) => {
           const stype_name = joinString(flagship_shiptypes.shiptype.map(ship_type => get($shipTypes, [ship_type, 'api_name'], '???')), __(' or '))
-          constraints.push(<li key={`required_shiptypes_${stype_name}`}>{i18n.resources.__(stype_name)} {required_shiptype.count}</li>)
+          constraints.push(<li key={`flagship_shiptypes_${stype_name}`}>{i18n.resources.__(stype_name)}</li>)
         })
       }
       if (expedition.ship_count > 0) {
